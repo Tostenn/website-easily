@@ -1,7 +1,7 @@
 # Start your website more easily
 
 **ce dépot** a été conçu pour faciliter et rendre plus dynamique le debut de vos différent et merveilleux projet web.
-Je m'explique, avant de commencer à matérialiser votre projet web vous devez excuter une serie de tache trés penible qui commence par la création des fichiers et ensuite ecrite la structure minimal du HTML enfin aprés cette etape vous dévez encore rélier c'est différent fichier entre eux, et la vous vous dite mais tout ça, sa prend du temps moi je veux commencer mon projet toute suite et soudain vous vous demandez **comment faire pour automatisé ces etape ?** et a ne plus s'en soucié
+Je m'explique, avant de commencer à matérialiser votre projet web vous devez excuter une serie de tache trés penible qui commence par la création des fichiers HTML, CSS, JS et ensuite ecrite la structure minimal du HTML enfin aprés cette etape vous dévez encore rélier c'est différent fichier entre eux, et la vous vous dite mais tout ça, sa prend du temps moi je veux commencer mon projet toute suite et soudain vous vous demandez **comment faire pour automatisé ces etape ?** et a ne plus s'en soucié. Alors si c'est cela votre préocupation ne vous inquite pas je vais vous aidez a surmonter cette etape liser attentivement la suite de la documentation a la fin de cela vous serai capable de commencer votre projet web en un clic
 
 # Prérequis
 + `Pyhon`
