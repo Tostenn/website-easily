@@ -12,14 +12,14 @@
 # Installation
 + ## Window
 ```window
-git clone https://github.com/Tostenn/country_capital.git
+git clone https://github.com/Tostenn/website-easily.git
 cd country_capital
 python main.py --path /
 ```
 + ## Linux 
 ```bash
 
-git clone https://github.com/Tostenn/country_capital.git
+git clone https://github.com/Tostenn/website-easily.git
 cd country_capital
 chmod +x *
 python main.py -c /
