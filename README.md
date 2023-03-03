@@ -26,13 +26,21 @@ python main.py -c /
 
 ```
 # Syntasx
-+ Usage
++ commande d'aide
 ```
-python main.py -e (json/txt/html) format d'enregistrement des donner
-python main.py -a affichage des donner (true/false)
-python main.py -n nom du fichier d'enregistrement par defaut c'est data
-python main.py -f forcer l'enregistrement dans un fichier exitant
+python main.py --help cmd     | pour voir toute les commandes disponible
+python main.py --help doc     | pour voir la documentation
+python main.py --help depot   | pour consulter le depot github        
+python main.py --help version | verifier la version
 ```
++ usage 
+```
+python main.py  -c/--path [chemin] | permet de spécifier le chemin d'initilisation du projet
+python main.py --help [cmd, doc, depot, version] | commande d'aide dynamique
+python main.py --html/--css/--js [nom/None] | pour modifier les noms des différents fichiers
+```
+
+
 
 + Exemple
 ```
