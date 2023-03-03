@@ -6,8 +6,8 @@
 + `Pyhon`
 - `module`<br>
 
-   ![](module.png)
-  
+   ![](https://raw.githubusercontent.com/Tostenn/Tostenn/main/module_web.png)
+> `NB` :  tous les modules utilisés ici sont présents nativement dans python alors pas besoin d'installation
 
 # Installation
 + ## Window
