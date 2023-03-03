@@ -14,7 +14,7 @@
 ```window
 git clone https://github.com/Tostenn/country_capital.git
 cd country_capital
-python main.py -a true
+python main.py --path /
 ```
 + ## Linux 
 ```bash
@@ -22,7 +22,7 @@ python main.py -a true
 git clone https://github.com/Tostenn/country_capital.git
 cd country_capital
 chmod +x *
-python main.py -e json
+python main.py -c /
 
 ```
 # Syntasx
