@@ -26,30 +26,41 @@ python main.py -c /
 
 ```
 # Syntasx
-+ commande d'aide
++ _commande d'aide_
 ```
 python main.py --help cmd     | pour voir toute les commandes disponible
 python main.py --help doc     | pour voir la documentation
 python main.py --help depot   | pour consulter le depot github        
 python main.py --help version | verifier la version
 ```
-+ usage 
++ chemin
+
+**`python main.py  -c/--path [chemin]`** Cette commande permet de spécifier le chemin d'initialisation du projet si vous souhaitez initialiser votre projet dans le répertoire courant `/` après la commande <br>
+_exemple d'utilisation pour le dossier courant_
 ```
-python main.py  -c/--path [chemin] | permet de spécifier le chemin d'initilisation du projet
-python main.py --help [cmd, doc, depot, version] | commande d'aide dynamique
-python main.py --html/--css/--js [nom/None] | pour modifier les noms des différents fichiers
+python main.py --path /
 ```
++ renommage
+--**`html, css, js`** vous permet de modifier les noms des différents fichiers ou de ne pas créer ce fichier avec les mots-clés **`None`**
+> **`NB`** par défaut tous les fichiers sont renommés **`index`**
+```
+python main.py -c / --html main --css style --js None
+```
+> **`explication`** d'abord nous avons choisi d'initialiser notre projet dans le répertoire courant ensuite nous avons renommé le fichier HTML en maints Puid fichier Css en style et pour finir nous avons utilisé les mots-clés None pour le js ce qui signifie que nous ne voulons pas créer de fichier Javascript
+
+## structure minimal du HTML et relier les diférents fichiers
+**`automatique`** et oui on rentre dans la phase automatique du script et ne vous s'en fait pas à ce niveau tout le travail a été déjà fait plus besoin de taper de commande lorsque nous avons tapé cette commande **`python main Py-path /`** automatique il a créés nos différents fichiers et les est relié automatiquement ce n'est pas génial ça il s'est pass' la même chose lorsqu'on a tapé **`python main py -c / --html main --css style --js Nenone`** mais avec une légère différence comme n'a pas créé de fichier Javascript c'est inutile de créer une balise <script> et donc de la cour pas de bug vous vous demander est-ce que ça marche aussi avec le Css et bien que oui si vous décidez de ne créer que les fichiers HTML et Javascript automatique il les relie et n'implique pas la balise <lienk/>
 
 
-
-+ Exemple
++ _Exemple_
 ```
-python main.py -e json -n index -f _
-python main.py -a false -n data -f _ -e html
-python main.py -e txt -a true -n enregistrement
+python main.py --path /
+python main.py --path / --html None
+python main.py --help version
 ```
- + avec le format  `html`<br> ![](html.png)
-# **Ce Depot**
-
+# ce depot
+ 
 > **__Toute amélioration sera la  `BIENVENUE`__** <br>
+> **le script sera diponible le `7 mars à 00h00`**<br>
+>**email _`kouyatosten@gmail.com`_**<br>
 > **Statut :  `en cour`**
