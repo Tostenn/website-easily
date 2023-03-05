@@ -61,6 +61,5 @@ python main.py --help version
 # ce depot
  
 > **__Toute amélioration sera la  `BIENVENUE`__** <br>
-> **le script sera diponible le `10 mars à 00h00`**<br>
 >**email _`kouyatosten@gmail.com`_**<br>
-> **Statut :  `en cour`**
+> **Statut :  `terminer`**
