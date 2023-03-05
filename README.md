@@ -25,7 +25,7 @@ chmod +x *
 python main.py -c /
 
 ```
-# Syntasx
+# Syntaxe
 + ## _commande d'aide_
 ```
 python main.py --help cmd     | pour voir toute les commandes disponible
