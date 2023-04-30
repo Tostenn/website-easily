@@ -28,10 +28,10 @@ python main.py -c /
 # Syntaxe
 + ## _commande d'aide_
 ```
-python main.py --help cmd     | pour voir toute les commandes disponible
-python main.py --help doc     | pour voir la documentation
-python main.py --help depot   | pour consulter le depot github        
-python main.py --help version | verifier la version
+python main.py --helps cmd     | pour voir toute les commandes disponible
+python main.py --helps doc     | pour voir la documentation
+python main.py --helps depot   | pour consulter le depot github        
+python main.py --helps version | verifier la version
 ```
 + ## chemin
 
